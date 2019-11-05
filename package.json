@@ -1,0 +1,22 @@
+{
+  "name": "testopenshift",
+  "version": "1.0.0",
+  "description": "testOpenShift",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alejandropachecovizuet/testOpenShift.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/alejandropachecovizuet/testOpenShift/issues"
+  },
+  "homepage": "https://github.com/alejandropachecovizuet/testOpenShift#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
