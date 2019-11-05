@@ -8,7 +8,7 @@ app.get('/', function (req, res) {
     let totalCpus=cpus.length;
     let memoryBytes=os.totalmem();
     let memoryGb=memoryBytes/1024/1024/1024;
-    res.send({app:'Hello World Openshift!!!', cpus, memoryBytes, memoryGb,totalCpus});
+    res.send({app:'Hello Openshift!!!!', cpus, memoryBytes, memoryGb,totalCpus});
 });
 
 app.listen(8080, function () {
